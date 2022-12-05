@@ -1,0 +1,349 @@
+body{
+    margin: 0px;
+    padding: 0px; 
+}
+.main-div{
+    background-color: #3D087B;
+    height: 130vh;
+    padding: 0px 120px 0px 120px;
+
+}
+#clock-logo{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.time-main{
+    height: 110px;
+    width: 38vw;
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    align-items: center;
+    z-index: 5;
+}
+
+.time-txt{
+    color: #3D087B;
+    font-size: 2rem;
+    align-self: center;
+    margin-left: 10px;
+    width: 80px;
+    height: 90px;
+    text-align: center;
+}
+.semi{
+    font-size: 2.5rem;
+    position: relative;
+    left: 5px;
+}
+.hms{
+    font-size: 1.5rem;
+    
+}
+.hr{
+    position: relative;
+    top: 20px;
+}
+.time-text{
+    font-size: 1.5rem;
+}
+.pic{
+    background-image: url('./assets/timeline.png')
+}
+.time-txt:last-child{
+    background-image: url('./assets/AM_svg.png');
+    
+}
+.back1{
+    height: 110px;
+    width: 35vw;
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    right: 120px;
+    top: 60px;
+    border-radius: 15px;
+    opacity: 0.71;
+    z-index: 3;
+
+}
+.back2{
+    height: 110px;
+    width: 33vw;
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    right: 140px;
+    top: 70px;
+    border-radius: 15px;
+    opacity: 0.22;
+    z-index: 1;
+}
+.time-div{
+    width: 35vw;
+    height: 320px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    position: absolute;
+    top: 160px;
+    align-content: center;
+    box-sizing: border-box;
+
+
+}
+.times{
+    margin-top: 30px;
+}
+#icon{
+    display: inline-block;
+    font-size: 2rem;
+    color: #3D087B;
+ 
+    
+}
+.line{
+    height: 28px;
+    width: 0vmax;
+    display: flex;
+    position: absolute;
+    justify-self: start;
+    left: 30px;
+   
+
+}
+.sizeof-text{
+    font-size: 1.3vw;
+    color: #3D087B;
+    margin-left: 30px;
+    
+    
+}
+.sizeof-box{
+    height: 30px;
+    width: 16vw;
+    border: 2px solid #3D087B;
+    position: absolute;
+    right: 20px;
+    margin-top: 15px;
+   background-color: #d9b3c2;
+}
+.pics{
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+#pic1{
+    position: relative;
+    right: 15px;
+    top: 5px;
+}
+.new-div{
+    width: 35vw;
+    height: 60px;
+    background-color: #858585;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 490px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    line-height: 60px;
+    
+}
+.btn{
+    position: absolute;
+    top: 560px;
+    width: 15vw;
+    height: 40px;
+    font-size: 1.2rem;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: 0px;
+}
+#set1{
+    display: none;
+}
+.btn:hover{
+    color: #3D087B;
+}
+.div-main-a{
+    height: 15vh;
+    width: 13vw;
+    background-color: #858585;
+    position: absolute;
+    top: 560px;
+    left: 29vw;
+    border-radius: 8px;
+    color: #3D087B;
+    font-size: 12px;
+    align-self: center;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 15px;
+
+}
+.new-div2{
+    width: 38vw;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #8E53F0;
+    line-height: 80px; 
+}
+.last-div{
+    width: 38vw;
+    height: 340px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(./assets/Goodmoring2.png);  
+}
+@media only screen  and (min-width: 200px) and (max-width: 850px) {
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    
+    }
+    
+    .time-main{
+        height: 90px;
+        width: 100%;
+        background-color: #FFFFFF;
+        display: flex;
+        position: relative;
+        top: 90px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .back1{
+        height: 90px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: none;
+    
+    }
+    .back2{
+        height: 90px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: -90px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        display: none;
+    }
+    .time-div{
+        width: 100%;
+        height: 350px;
+        position: relative;
+        top: 225px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .new-div{
+        width: 100%;
+        height: 60px;
+        position: relative;
+        top: 110px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 15px;
+        
+    }
+    .btn{
+        position: relative;
+        top: 95px;
+        height: 20vh;
+        width: 48%;
+    }
+    .div-main-a{
+        height: 20vh;
+        width: 48%;
+        position: relative;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 10px;
+        display: grid;
+        align-items: center;
+        font-size: 15px;
+    
+    }
+    .new-div2{
+        width: 100%;
+        height: 80px;
+        position: relative;
+        top: 40px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 10px;
+        display: grid;
+        align-self: center;
+
+    }
+    .main-div{
+        height: 200vh;
+    }
+    .last-div{
+        width: 100%;
+        height: 340px;
+        background-color: #FFFFFF;
+        border-radius: 15px;
+        box-sizing: border-box;
+        position: relative;
+        top: 170px;
+        right: 100px;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding-left: 50px;
+        
+    }
+    .sizeof-text{
+        font-size: 100%;
+        color: #3D087B;
+        margin-left: 30px;
+        
+    }
+    .sizeof-box{
+        width: 25vw;
+
+    }
+    .time-txt{
+        position: relative;
+        width: 13vw;
+        height: 10h;
+        font-size: 1.5rem;
+    }
+    .time-text{
+        font-size: 1rem;
+    }
+
+    
+}
