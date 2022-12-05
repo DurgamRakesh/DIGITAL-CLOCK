@@ -217,7 +217,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(./assets/Goodmoring2.png); 
-    padding-left: 30px; 
+    padding-left: 25px; 
 }
 @media only screen  and (min-width: 200px) and (max-width: 850px) {
     .main-div{
