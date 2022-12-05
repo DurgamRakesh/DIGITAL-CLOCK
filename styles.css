@@ -215,7 +215,7 @@ body{
     right: 100px;
     text-align: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-image: url(./assets/Goodmoring2.png);  
 }
 @media only screen  and (min-width: 200px) and (max-width: 850px) {
