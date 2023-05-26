@@ -72,7 +72,7 @@ function alarmclick() {
     }
     else if(set2 == livehour){
         document.getElementById("first-text").innerText="GOOD AFTERNOON !!";
-        document.getElementById("last-img").style.background="url(./assets/Group_lunch.png)"
+        document.getElementById("last-img").style.backgroundImage="url(./assets/Group_lunch.png)"
     }
     else if(set3 == livehour){
         document.getElementById("first-text").innerText="GOOD EVENING!! ";
